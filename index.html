@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+
+        <h1>📦 Inventory Pro</h1>
+
+        <div class="input-row">
+
+            <input
+                id="item-name"
+                type="text"
+                placeholder="Item name">
+
+            <input
+                id="item-qty"
+                type="number"
+                placeholder="Qty">
+
+            <button
+                class="add-btn"
+                onclick="addItem()">
+                Add
+            </button>
+
+        </div>
+
+        <div id="inventory-list"></div>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
